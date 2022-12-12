@@ -6,6 +6,8 @@ import './App.css'
 import Confetti from 'react-confetti'
 
 
+
+
 function App() {
   // states
   const [dice, setDice] = React.useState(allNewDice())
@@ -76,6 +78,8 @@ function App() {
         {diceElements}
       </div>
       <button className="roll-dice" onClick={rollDice}>{tenzies ? "New game" : "Roll"}</button>
+   
+  
     </main>
   )
 }
